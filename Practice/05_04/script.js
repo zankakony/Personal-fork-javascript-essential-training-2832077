@@ -5,3 +5,4 @@
 console.log(document.getElementById("pack02"));
 console.log(document.querySelector(".sitefooter"));
 console.log(document.querySelector(".backpack__image"));
+// comment
