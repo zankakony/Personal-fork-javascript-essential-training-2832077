@@ -11,6 +11,11 @@ const box = {
   material: "carton",
 };
 
+const changeBold = function (itemID) {
+  let formattedItemid = document.getElementById(itemID);
+  formattedItemid.style.fontWeight = "bold";
+};
+
 const addBox = (currentBox) => {
   const newSection = document.createElement("section");
   newSection.innerHTML = `
@@ -24,12 +29,7 @@ const addBox = (currentBox) => {
   return newSection;
 };
 
-// changeBold();
-
 const main = document.querySelector("main");
 main.append(addBox(box));
 
-// const changeBold = function () {
-  const itemID = document.getElementById("boxName");
-  itemID.style.fontWeight = "bold";
-// };
+changeBold("boxName");

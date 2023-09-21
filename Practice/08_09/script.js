@@ -57,3 +57,24 @@ const content = `
       }</span></li>
     </ul>  
 `;
+
+const figContent = `
+  <img src="${frogpack.image}" />
+  <figcaption>Frog Backpak Image</figcaption>
+`;
+
+const addImage = () => {
+  const newFigure = document.createElement("figure");
+  newFigure.innerHTML = figContent;
+  return newFigure;
+};
+
+const addPack = (currentPack) => {
+  const newArticle = document.createElement("article");
+  newArticle.innerHTML = content;
+  newArticle.append(addImage());
+  return newArticle;
+};
+
+const main = document.querySelector("main");
+main.append(addPack(frogpack));
