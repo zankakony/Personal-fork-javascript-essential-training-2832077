@@ -59,7 +59,7 @@ const content = `
 `;
 
 const figContent = `
-  <img src="${frogpack.image}" />
+  <img src="${frogpack.image}" height="400"; width="300" />
   <figcaption>Frog Backpak Image</figcaption>
 `;
 
