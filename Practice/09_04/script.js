@@ -44,5 +44,15 @@ pageBody.addEventListener("keypress", (e) => {
 
 // add identical switch with keyup and reversed color
 
-
-
+pageBody.addEventListener("keyup", (e) => {
+  switch (e.key) {
+    case "a":
+      document.querySelector(".cell01").style.backgroundColor = "#e6e6e6";
+      break;
+    case "b":
+      document.querySelector(".cell02").style.backgroundColor = "#e6e6e6";
+      break;
+    default:
+      gridCell.style.backgroundColor = "#e6e6e6";
+  }
+});
