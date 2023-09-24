@@ -42,6 +42,6 @@ pageBody.addEventListener("keypress", (e) => {
   }
 });
 
-// pageBody.addEventListener("keyup", (e2) => {
+// pageBody.addEventListener("keyup", (e2) => { -- test
 //   document.querySelectorAll(".cell").style.backgroundColor = "#e6e6e6";
 // });
