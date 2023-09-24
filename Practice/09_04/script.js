@@ -38,10 +38,11 @@ pageBody.addEventListener("keypress", (e) => {
       document.querySelector(".cell02").style.backgroundColor = "#DDFF0D";
       break;
     default:
-      document.querySelectorAll(".cell").style.backgroundColor = "#e6e6e6";
+      gridCell.style.backgroundColor = "#e6e6e6";
   }
 });
 
-// pageBody.addEventListener("keyup", (e2) => { -- test
-//   document.querySelectorAll(".cell").style.backgroundColor = "#e6e6e6";
-// });
+// add identical switch with keyup and reversed color
+
+
+
